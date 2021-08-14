@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+.root {
+    --primary-color: #978cc3;
+    --border: #111827;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+nav {
+    background-color: var(--primary-color);
+    text-align: center;
+    margin: auto;
+    color: black;
+    padding: 1.5rem;
+    max-width: 100%;
+    max-height: 20vh
+}
+
+img {
+    width: 80px;
+}
+
+header {
+    font-size: 3rem;
+}
+
+.container-center {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 400px;
+    font-size: x-large;
+}
+
+textarea {
+    width: 100%;
+    font-family: inherit;
+    border: 1px solid var(--border);
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+}
+
+footer {
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+.output {
+    overflow: scroll;
+    min-height: 10vh;
+    border: 1px solid var(--border);
+}
