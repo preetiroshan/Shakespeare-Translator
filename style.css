@@ -44,11 +44,12 @@ textarea {
 }
 
 footer {
-    /* position: fixed;
+    position: fixed;
     bottom: 0;
-    left: 0; */
+    left: 0;
     font-size: 1.3rem;
     text-align: center;
+    width: 100%;
 }
 
 button {
