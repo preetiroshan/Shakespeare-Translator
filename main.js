@@ -8,7 +8,7 @@ const onSubmit = () => {
     }
 }
 
-const translate = (text) => fetch(`https://api.funtranslations.com/translate/minion.json?text=${text}`)
+const translate = (text) => fetch(`https://api.funtranslations.com/translate/shakespeare.json?text=${text}`)
     .then((res) => res.json())
     .then((res) => document.querySelector(".output").innerText = res.contents.translated)
     .catch((err) => alert("Some error occurred. Please try again"))
